@@ -1,70 +1,93 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<img src="https://logos-world.net/wp-content/uploads/2020/11/Marvel-Logo-2012-2014.png" alt="Marvel Logo " width="300" align="center"/>
 
-In the project directory, you can run:
+## Abstract
 
-### `npm start`
+* The Marvel App is a React App that gives a user the ability to search through Marvel Characters and quickly find information on them. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- As a user, when I visit the app, I should be able to search for any Marvel Character by name.
+- As a user, when I visit the app on a computer or tablet, I should be able to see a display of some fo the Marvel Characters.
+- Character Details: As a user, I should be able to access a page that contains The searched Character's detail information. 
+- As a user, I should be able to return to the Home Page of the app from any other page.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This project is a solo project for Turing School of Software & Design during module 3. 
 
-### `npm test`
+[The project rubric is linked here.](https://frontend.turing.edu/projects/module-3/showcase.html)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Deployment Link]()
 
-### `npm run build`
+## A Little Bit About the Developers
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/f04903ff58bd2ab033219515696a42d249fb2503ff24173b0ccce86574d0c50a._SX1080_.jpg" alt="Black Widow" width="300" align="right"/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*Hi! My name is [Joana](https://github.com/joanafbrito)!👩🏻‍💻🌴  I am a current Front End Engineering student at Turing School of Software Design. I am a career changer! I've  spent the last decade working to manage two small business, and grabbing the opportunity to move to another country.*
+*Now, I'm spending my days learning code and playing with my dog. As a woman I can contribute to build a more balanced society, where people can be seen as equals in the software industry and where I can build apps more inclusive making a difference using this huge platform of the internet!*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Learning Goals and Objectives
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- React components & asynchronous JS - use of Hooks and APIs
+- Create a multi-page UX using Router
+- Successful TDD/Cypress
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zlOTT8sMz_jGR-5_8F3-DUYqW8BvYcJL0A&usqp=CAU" alt="Capitain American Shield" width="300" align="center"/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Technologies Used
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- React/JavaScript
+- React Router
+- Green Sock Animation Library (GSAP)
+- JSX
+- CSS
+- Lighthouse (Accessibility dev-tool)
+- Cypress
+- NPM
+- Fetch API
+- Miro Wireframe [(link)](https://miro.com/app/board/o9J_lvS23FY=/)
+- [MARVEL API](https://developer.marvel.com/documentation/generalinfo)
 
-## Learn More
+## Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Mobile
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p>
+  <img src="" alt="mobile home page screenshot" width="200"/>
+  <img src="" alt="mobile details screenshot" width="200"/>
+</p>
 
-### Code Splitting
+### Desktop
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p>
+  <img src="" alt="desktop home page screenshot" width="200"/>
+  <img src="" alt="desktop home page screenshot" width="200"/>
+</p>
 
-### Analyzing the Bundle Size
+### Error & Loader
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<p>
+  <img src="" alt="error screenshot" width="200"/>
+  <img src="" alt="loader screenshot" width="200"/>
+</p>
 
-### Making a Progressive Web App
+## Reflections
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Wins
 
-### Advanced Configuration
+- Design, plan and Build the app in 5 days while having Classes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<img src="https://cdn.goliath.com/eyJidWNrZXQiOiJwdWItc3RvcmFnZSIsImtleSI6ImdvbGlhdGgvd3AtY29udGVudC91cGxvYWRzLzIwMTYvMDUvTWFydmVsLVRoZS1BdmVuZ2Vycy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE2MDAsImhlaWdodCI6OTAyLCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MCwiZyI6MCwiYiI6MCwiYWxwaGEiOjF9LCJwb3NpdGlvbiI6InRvcCJ9fX0=" alt="Avengers" width="300" align="right"/>
 
-### Deployment
+### Challenges
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+- Balancing fun/life with project/work/study time 👩🏻‍💻 💅🏻 💆🏻‍ 🐈 🎸
+- Managing the media queries for responsive design
+- Very short time to build the app
+- Time managment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Designs/Extensions
+
+- The user will be able to login/logout with username and password.
+- The user will be able to save their favorite characters within their account.
+- The user will be able to play a game in the app.
