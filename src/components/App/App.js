@@ -13,7 +13,7 @@ const App = () => {
     try {
       const res = await getData()
       const charactersData = await res.json()
-      setCharacters(charactersData.results)
+      setCharacters(charactersData.data.results)
     } catch (err) {
       console.log("Error: ", err)
     }
