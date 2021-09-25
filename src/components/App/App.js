@@ -1,13 +1,13 @@
-// import logo from '../logo.svg';
+import React from 'react';
 import './App.css';
-// import { getData } from '../../utils/apiCalls'
+import { getData } from '../../utils/apiCalls'
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
         <p>
-          Marvel
+          Marvel 
         </p>
         <a
           className="App-link"
