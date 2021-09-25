@@ -1,8 +1,25 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import { getData } from '../../utils/apiCalls'
 
 const App = () => {
+  const [characters, setCharacters] = useState([])
+
+  useEffect(() => {
+    getCharactersData();
+  }, []);
+
+  const getCharactersData = async () => {
+    try {
+      const res = await getData()
+      const charactersData = await res.json()
+      setCharacters(charactersData.results)
+    } catch (err) {
+      console.log("Error: ", err)
+    }
+  };
+  console.log(characters)
+
   return (
     <div className="App">
       <header className="App-header">
