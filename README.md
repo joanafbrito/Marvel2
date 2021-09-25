@@ -4,7 +4,7 @@
 
 ## Abstract
 
-* The Marvel App is a React App that gives a user the ability to search through Marvel Characters and quickly find information on them. 
+* The Marvel2U App is a React App that gives a user the ability to search through Marvel Characters and quickly find information on them. 
 
 - As a user, when I visit the app, I should be able to search for any Marvel Character by name.
 - As a user, when I visit the app on a computer or tablet, I should be able to see a display of some fo the Marvel Characters.
@@ -17,7 +17,7 @@ This project is a solo project for Turing School of Software & Design during mod
 
 [Deployment Link]()
 
-## A Little Bit About the Developers
+## A Little Bit About the Developer
 
 <img src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/f04903ff58bd2ab033219515696a42d249fb2503ff24173b0ccce86574d0c50a._SX1080_.jpg" alt="Black Widow" width="300" align="right"/>
 
