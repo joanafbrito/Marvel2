@@ -6,10 +6,9 @@ const Header = () => {
 
     return(
         <header className='header'>
-            <h1>
-            {/* <img className='marvel-logo' src={ marvel_logo} alt='Marvel'/> */}
-            MARVEL
-            </h1>
+            <div className='logo-img-container'>
+                <img className='marvel-logo' src="/marvel_logo1.svg" alt='Marvel'/>
+            </div>
             <a className='home-page-link'href='/'>Characters</a>
         </header>
     )
