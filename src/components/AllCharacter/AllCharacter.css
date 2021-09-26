@@ -3,5 +3,7 @@
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
-    /* margin: 10px; */
+    margin: 10px;
+    overflow-x: hidden;
+    height: 65vh;
 }
