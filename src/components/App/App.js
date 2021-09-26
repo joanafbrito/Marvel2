@@ -26,7 +26,7 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <Header />
-        <AllCharacter characterData={ characters}/>
+        <AllCharacter characterData={ characters }/>
       </header>
     </div>
   );

@@ -25,7 +25,6 @@
 }
 
 .home-page-link:hover {
-    font-size: 14px;
-    color: #e62429;
-    border-bottom: 1px solid #e62429;
+    font-size: 13px;
+    border-bottom: 2px solid #e62429;
 }
