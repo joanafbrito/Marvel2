@@ -2,8 +2,6 @@
     display: flex;
     justify-content: center;
     max-width: 230px; 
-    min-width: 230px;
-    margin: 10px;
     padding:5px;
 }
 
@@ -16,8 +14,7 @@
     flex-wrap: wrap;
     cursor: pointer;
     overflow: hidden;
-    border-radius: 8px;
-    border-radius: left 15px;
+    border-radius: 0 10px;
 }
 .card-container:hover {
     background-color: #e62429;
@@ -25,8 +22,8 @@
     transition: all .3s linear;
     -webkit-transform: scaleX(1);
     transform: scaleY(1.02);
-    border-radius: 8px;
-    border-radius: left 15px;
+    border-radius: 0 20px;
+
 }
 
 .card-img {
