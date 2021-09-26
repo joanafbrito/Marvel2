@@ -1,0 +1,19 @@
+.header {
+    color:#e62429;
+    font-size: 20px;
+    background-color:#202020;
+    padding-bottom:2px;
+    font-family: Roboto,Trebuchet MS,Helvetica,Arial,sans-serif;
+}
+
+.home-page-link {
+    font-size: 12px;
+    color: #e62429;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+.home-page-link:hover {
+    font-size: 13px;
+    color: #ffffff;
+}

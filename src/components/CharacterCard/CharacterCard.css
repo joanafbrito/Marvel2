@@ -8,7 +8,7 @@
 }
 
 .card-container {
-    background-color: black;
+    background-color: #202020;
     height: 300px;
     width: 180px;
     display: flex;
@@ -49,7 +49,6 @@
 .line {
     background-color: #e62429;
     height: 1%;
-
 }
 
 h3 {

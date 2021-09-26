@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 // import { getData } from '../../utils/apiCalls'
 import { sampleData } from '../../utils/sampledata';
+import Header from '../Header/Header';
 import AllCharacter from '../AllCharacter/AllCharacter';
 import axios from 'axios';
 
@@ -25,9 +26,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          Marvel 
-        </p>
+        <Header />
         <AllCharacter characterData={ characters}/>
       </header>
     </div>
