@@ -1,0 +1,38 @@
+.character-card {
+   width: 210px; 
+}
+
+.card-container {
+    background-color: brown;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.card-container:hover {
+    background-color: black;
+    /* transform: scaleX(1); */
+    transition: all .2s linear;
+
+
+}
+
+.card-img {
+    height: 210px;
+    
+}
+.card-img:hover {
+    -webkit-transform: scaleX(1);
+    transform: scaleY(1.05);
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    overflow: hidden;
+    -o-object-position: top center;
+    object-position: top center;
+    /* zoom: 110%; */
+    /* overflow: hidden; */
+}
+h3 {
+    padding: 16px 10px 17px;
+}
