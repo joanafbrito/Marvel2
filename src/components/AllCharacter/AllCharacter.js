@@ -1,14 +1,12 @@
 import React from 'react';
 import CharacterCard from '../CharacterCard/CharacterCard';
-// import './AllCharacter.css';
+import './AllCharacter.css';
 
 const AllCharacter = ({ characterData }) => {
-    // const data = characterData.keys();
 
     const dataCharacter = characterData.map((character) => {
         // let characterId =character.id;
         let characterImg = `${character.thumbnail.path}.${character.thumbnail.extension}`
-        console.log( 'im on the Allcharacters',character.id)
 
         return (
             <CharacterCard

@@ -1,38 +1,50 @@
 .character-card {
-   width: 210px; 
+    display: flex;
+    justify-content: center;
+    max-width: 230px; 
+    min-width: 230px;
+    /* border: 2px solid yellow; */
+    margin: 10px;
+    padding:5px;
 }
 
 .card-container {
-    background-color: brown;
+    background-color: black;
     height: 500px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     cursor: pointer;
+    overflow: hidden;
+    /* margin: 10px; */
+    /* border: 1px solid green; */
 }
 .card-container:hover {
-    background-color: black;
-    /* transform: scaleX(1); */
+    background-color: white;
+    color: black;
+    transform: scaleX(1);
     transition: all .2s linear;
-
-
+    -webkit-transform: scaleX(1);
+    transform: scaleY(1.02);
 }
 
 .card-img {
-    height: 210px;
+    height: 40%;
+    width: 100%;
+    overflow: hidden;
     
 }
 .card-img:hover {
-    -webkit-transform: scaleX(1);
-    transform: scaleY(1.05);
     -webkit-transition: all .2s linear;
     transition: all .2s linear;
     overflow: hidden;
     -o-object-position: top center;
     object-position: top center;
-    /* zoom: 110%; */
-    /* overflow: hidden; */
 }
+
 h3 {
+    text-align: left;
     padding: 16px 10px 17px;
+    font-size: 18px;
 }
