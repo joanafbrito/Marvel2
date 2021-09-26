@@ -5,9 +5,8 @@ import './AllCharacter.css';
 const AllCharacter = ({ characterData }) => {
 
     const dataCharacter = characterData.map((character) => {
-        // let characterId =character.id;
         let characterImg = `${character.thumbnail.path}.${character.thumbnail.extension}`
-        if(characterImg !== "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"){
+        if(characterImg !== "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg") {
         return (
             <CharacterCard
                  key={ character.id}
