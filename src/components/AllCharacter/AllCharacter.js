@@ -7,7 +7,7 @@ const AllCharacter = ({ characterData }) => {
     const dataCharacter = characterData.map((character) => {
         // let characterId =character.id;
         let characterImg = `${character.thumbnail.path}.${character.thumbnail.extension}`
-
+        if(characterImg !== "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available.jpg"){
         return (
             <CharacterCard
                  key={ character.id}
@@ -15,7 +15,7 @@ const AllCharacter = ({ characterData }) => {
                  image={ characterImg }
                  name={ character.name }
             />
-        );
+        )}
     });
     return <div className="all-character">{dataCharacter}</div>
 };
