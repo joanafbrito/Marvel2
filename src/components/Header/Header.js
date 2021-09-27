@@ -7,7 +7,7 @@ const Header = () => {
     return(
         <header className='header'>
             <div className='logo-img-container'>
-                <img className='marvel-logo' src="/marvel_logo1.svg" alt='Marvel'/>
+                <img className='marvel-logo' src="/m_logo.png" alt='Marvel'/>
             </div>
             <a className='home-page-link'href='/'>Characters</a>
         </header>
