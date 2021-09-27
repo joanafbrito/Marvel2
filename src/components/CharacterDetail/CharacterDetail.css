@@ -1,0 +1,19 @@
+.character-detail {
+    background-color:#202020!important;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5%;
+    padding-left:0;
+
+}
+
+.character-info {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.text-info {
+    padding: 15%;
+   
+}
