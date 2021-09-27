@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 import Search from "../Search/Search";
 import AllCharacter from "../AllCharacter/AllCharacter";
 import CharacterDetail from "../CharacterDetail/CharacterDetail";
+import Loader from '../Loader/Loader';
 import axios from "axios";
 import "./App.css";
 // import { getData } from '../../utils/apiCalls'
@@ -15,7 +16,7 @@ const App = () => {
   const [error, setError] = useState("");
 
   useEffect(() => {
-    getData();
+    setTimeout(() => {getData()}, 3000) // this setTimeout is for animation
   }, [query]);
 
   const getData = async () => {
@@ -45,9 +46,9 @@ const App = () => {
           <Header />
           <Switch>
             <Route exact path="/">
-            {/* // {!characters.length && <Loader/>} // */}
             {/* {characters.length > 0 && ( */}
               <Search searchCharacter={searchCharacter} />
+              {!characters.length && <Loader/>} 
             {/* {error && <Error/>}  */}
               <AllCharacter
                 characterData={characters}

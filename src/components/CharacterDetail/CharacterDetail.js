@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from "react-router";
+import Loader from '../Loader/Loader';
 import axios from 'axios';
 
 
@@ -26,7 +27,7 @@ const CharacterDetail = () => {
 
     return (
         <section className='character-detail'>
-        {isLoading && <p>Loading...</p>}
+        {isLoading && <Loader/>}
         {searchCharacter && 
             <h2>{ searchCharacter.name}</h2>}
         </section>
