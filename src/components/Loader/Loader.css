@@ -1,0 +1,14 @@
+.loader-container{
+    color: rgb(255, 13, 0);
+    align-items: center;
+    
+}
+
+.loading-msg {
+    font-size: 35px;
+    color: rgb(239, 16, 16);
+}
+
+.spiderman-loader{
+    width: 30%;
+}
