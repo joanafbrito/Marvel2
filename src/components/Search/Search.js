@@ -9,6 +9,13 @@ const Search = ({ searchCharacter }) => {
         searchCharacter(e.target.value)
     }
 
+    const handleKeyPress = (e) => {
+        if( e.key === 'Enter') {
+            e.preventDefault();
+            searchCharacter(e.target.value)
+        }
+    }
+
     return (
         <form className='search-form'>
             <div className='image-container'>
@@ -23,6 +30,7 @@ const Search = ({ searchCharacter }) => {
                 type='search'
                 placeholder='SEARCH'
                 onChange={(e)=> handleChange(e)}
+                onKeyPress={(e)=> handleKeyPress(e)}
                 />
             </div>
             <div className='gray-line'></div>
