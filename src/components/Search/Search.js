@@ -10,10 +10,18 @@ const Search = ({ searchCharacter }) => {
     }
 
     const handleKeyPress = (e) => {
-        if( e.key === 'Enter') {
+        console.log(e)
+        if(e.key === 'Enter') {
             e.preventDefault();
             searchCharacter(e.target.value)
+        } else {
+            console.log(e)
         }
+        // need to go clear the search if nothing is pressed back 
+        // need to reset the state to empty after clickin the details card
+        //  else if (e.target.value === '') {
+        //     searchCharacter('Spider')
+        // }
     }
 
     return (
