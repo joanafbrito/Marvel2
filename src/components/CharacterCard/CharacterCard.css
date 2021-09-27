@@ -16,6 +16,7 @@
     overflow: hidden;
     border-radius: 0 10px;
 }
+
 .card-container:hover {
     background-color: #e62429;
     transform: scaleX(1.02);
@@ -23,7 +24,6 @@
     -webkit-transform: scaleX(1);
     transform: scaleY(1.02);
     border-radius: 0 20px;
-
 }
 
 .card-img {
@@ -31,16 +31,13 @@
     padding-top: 0;
     height: 55%;
     width: 100%;
-    overflow: hidden;
-    
+    overflow: hidden;   
 }
 
 .card-img:hover {
     transform: scaleX(1.05);
     transition: all .3s linear;
     -webkit-transform: scaleX(1.1);
-    /* transform: scaleY(1); */
-    /* -webkit-transition: all .2s linear; */
     overflow: hidden;
     -o-object-position: top center;
     object-position: top center;
@@ -57,7 +54,7 @@ h3 {
     font-size: 14px;
 }
 
-a{
+a {
     color:white;
     text-decoration: none;
 }

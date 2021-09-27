@@ -1,11 +1,10 @@
 .character-detail {
-    background-color:#202020!important;
-    color: white;
+    background-color:#white;
+    color: black;
     display: flex;
     flex-direction: row-reverse;
     padding: 5%;
     padding-left:0;
-
 }
 
 .character-info {
@@ -13,7 +12,17 @@
     flex-direction: row-reverse;
 }
 
+.searched-character-img {
+    width: 40%;
+    border-radius: 0 60px;
+    margin-left: 10%;
+    /* border:2px solid #ff0000ab; */
+}
+
 .text-info {
-    padding: 15%;
-   
+    padding: 15%;  
+}
+
+.character-name {
+    color: #ff0000ab;
 }
