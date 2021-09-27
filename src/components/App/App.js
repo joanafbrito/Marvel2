@@ -1,18 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import "./App.css";
-// import { getData } from '../../utils/apiCalls'
-import { sampleData } from "../../utils/sampledata";
 import Header from "../Header/Header";
+import Search from "../Search/Search";
 import AllCharacter from "../AllCharacter/AllCharacter";
 import CharacterDetail from "../CharacterDetail/CharacterDetail";
 import axios from "axios";
-import Search from "../Search/Search";
+import "./App.css";
+// import { getData } from '../../utils/apiCalls'
+// import { sampleData } from "../../utils/sampledata";
 
 const App = () => {
   const [characters, setCharacters] = useState([]);
   const [query, setQuery] = useState("");
-  const [searchedCharacter, setSearchedCharacter] = useState([]);
   const [error, setError] = useState("");
 
   useEffect(() => {
@@ -39,22 +38,21 @@ const App = () => {
     }
   };
 
-  const getSearchedCharacter = (name) => {
-    setSearchedCharacter(name);
-  };
-
   return (
     <Router>
       <div className="App">
         <header className="App-header">
           <Header />
           <Switch>
-            <Route path="/" exact>
+            <Route exact path="/">
+            {/* // {!characters.length && <Loader/>} // */}
+            {/* {characters.length > 0 && ( */}
               <Search searchCharacter={searchCharacter} />
+            {/* //  /* {error && <Error/>} */ // */}
               <AllCharacter
                 characterData={characters}
-                getSearchedCharacter={getSearchedCharacter}
               />
+              {/* )} */}
             </Route>
             <Route path="/character/:id">
               <CharacterDetail />
