@@ -1,0 +1,18 @@
+.image-container {
+    background-color: black;
+    opacity: 0.8; 
+}
+
+.home-page-bg {
+    width: 100vw;
+    z-index: -1;
+    position: relative;
+    opacity: 0.4;
+}
+
+.search-bar {
+    align-items: center;
+    text-align: initial;
+    width: 300px;
+    margin: 5% 0 0 12%;
+}
