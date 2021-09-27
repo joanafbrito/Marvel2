@@ -1,7 +1,7 @@
 import React from 'react';
 
-export const sampleData = () => {
-    return {
+export const sampleData =  {
+    // return {
     "code": 200,
     "status": "Ok",
     "copyright": "© 2021 MARVEL",
@@ -409,5 +409,5 @@ export const sampleData = () => {
         }
       ]
     }
-  }
+//   }
 };
