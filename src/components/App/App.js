@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 // import { getData } from '../../utils/apiCalls'
 import { sampleData } from "../../utils/sampledata";
 import Header from "../Header/Header";
 import AllCharacter from "../AllCharacter/AllCharacter";
+import CharacterDetail from "../CharacterDetail/CharacterDetail";
 import axios from "axios";
 import Search from "../Search/Search";
 
@@ -32,19 +34,35 @@ const App = () => {
 
   const searchCharacter = (query) => {
     const lowerCaseIput = query.toLowerCase();
-    if (lowerCaseIput.length >= 3) {
+    if (query.length >= 3) {
       return setQuery(lowerCaseIput);
     }
   };
 
+  const getSearchedCharacter = (name) => {
+    setSearchedCharacter(name);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <Header />
-        <Search searchCharacter={searchCharacter} />
-        <AllCharacter characterData={characters} />
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <header className="App-header">
+          <Header />
+          <Switch>
+            <Route path="/" exact>
+              <Search searchCharacter={searchCharacter} />
+              <AllCharacter
+                characterData={characters}
+                getSearchedCharacter={getSearchedCharacter}
+              />
+            </Route>
+            <Route path="/character/:id">
+              <CharacterDetail />
+            </Route>
+          </Switch>
+        </header>
+      </div>
+    </Router>
   );
 };
 
