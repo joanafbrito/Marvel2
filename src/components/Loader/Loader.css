@@ -1,7 +1,9 @@
 .loader-container{
+    display: flex;
+    text-align: center;
     color: rgb(255, 13, 0);
     align-items: center;
-    
+    max-height: 30vh;   
 }
 
 .loading-msg {
