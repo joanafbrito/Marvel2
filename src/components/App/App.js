@@ -48,7 +48,7 @@ const App = () => {
             {/* // {!characters.length && <Loader/>} // */}
             {/* {characters.length > 0 && ( */}
               <Search searchCharacter={searchCharacter} />
-            {/* //  /* {error && <Error/>} */ // */}
+            {/* {error && <Error/>}  */}
               <AllCharacter
                 characterData={characters}
               />
