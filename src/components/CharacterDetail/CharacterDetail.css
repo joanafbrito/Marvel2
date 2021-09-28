@@ -3,8 +3,7 @@
     color: black;
     display: flex;
     flex-direction: column;
-    padding: 5%;
-    padding-left:0;
+    padding-top: 5%;
 }
 
 .character-info {
@@ -29,7 +28,17 @@
 
 .series-img {
     width:20%;
-    margin: 10%;
+    margin: 5% 10% 1% 10%;
     border-radius: 0 40px;
     border:2px solid #ff0000ab;
+}
+
+/* ****** IphoneX ******* */
+@media only screen and (max-width:600px ){
+    .searched-character-img {
+        width: 20%;
+        height: 40%;
+        border-radius: 0 20px;
+    }
+    
 }

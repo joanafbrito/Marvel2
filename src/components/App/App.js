@@ -5,6 +5,7 @@ import Search from "../Search/Search";
 import AllCharacter from "../AllCharacter/AllCharacter";
 import CharacterDetail from "../CharacterDetail/CharacterDetail";
 import Loader from '../Loader/Loader';
+import Footer from '../Footer/Footer';
 import axios from "axios";
 import "./App.css";
 import { sampleData } from "../../utils/sampledata";
@@ -62,6 +63,7 @@ const App = () => {
             </Route>
           </Switch>
         </header>
+        <Footer/>
       </div>
     </Router>
   );
