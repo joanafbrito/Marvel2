@@ -53,9 +53,10 @@ const CharacterDetail = () => {
             <section className='series-container'>
                 {/* <p>{searchedCharacter.series.items[10].name}</p> */}
                 <img
-                    className="comic-img"
+                    className="series-img"
                     src="https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg"
                     // alt={searchedCharacter.comics.item[10].name}
+                    alt='Avanges endgame series'
                 />
             </section>
         </div>       

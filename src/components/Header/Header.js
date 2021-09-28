@@ -1,5 +1,4 @@
 import React from 'react';
-// import marvel_logo from '../../utils/marvel_logo.svg';
 import './Header.css';
 
 const Header = () => {
