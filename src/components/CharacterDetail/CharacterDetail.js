@@ -14,7 +14,7 @@ const CharacterDetail = () => {
   useEffect(() => {
     getDetails();
     console.log(searchedCharacter);
-  }, [searchedCharacter]);
+  }, []);
 
   const getDetails = async () => {
     // let pbk = "9b29a8325371bc7becbf4068fd0948eb";// my key
@@ -36,19 +36,29 @@ const CharacterDetail = () => {
     <section className="character-detail">
       {isLoading && <Loader />}
       {searchedCharacter && (
-        <section className="character-info">
-          <article className="text-info">
-            <h2 className='character-name'>{searchedCharacter.name}</h2>
-            <p>{searchedCharacter.description}</p>
-            {/* <p>{ searchedCharacter.id}</p> */}
-          </article>
-          <img
-            className="searched-character-img"
-            // src={searchedCharacterImg}
-            src="http://i.annihil.us/u/prod/marvel/i/mg/d/d0/5269657a74350.jpg"
-            alt={searchedCharacter.name}
-          />
-        </section>
+        <div className='details-container'>
+            <section className="character-info">
+                <article className="text-info">
+                    <h2 className='character-name'>{searchedCharacter.name}</h2>
+                    <p>{searchedCharacter.description}</p>              
+                    {/* <p>{ searchedCharacter.id}</p> */}
+                </article>
+                <img
+                    className="searched-character-img"
+                    // src={searchedCharacterImg}
+                    src="http://i.annihil.us/u/prod/marvel/i/mg/d/d0/5269657a74350.jpg"
+                    alt={searchedCharacter.name}
+                />
+            </section>
+            <section className='series-container'>
+                {/* <p>{searchedCharacter.series.items[10].name}</p> */}
+                <img
+                    className="comic-img"
+                    src="https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg"
+                    // alt={searchedCharacter.comics.item[10].name}
+                />
+            </section>
+        </div>       
       )}
     </section>
   );
