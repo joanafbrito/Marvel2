@@ -1,3 +1,4 @@
+// to start the test run npx cypress open into your terminal
 describe('Home page', () => {
     beforeEach(() => {
         cy.pageLoad()
