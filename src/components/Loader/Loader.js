@@ -12,17 +12,14 @@ const Loader = () => {
             duration: 2.5,
             easy: 'bounce.out',
             y: -1000,
-            // scale: -0.6,
             x: 0,
             yoyo: true,
-            // rotation: 150,
             repeat: 6,
         });
 
         gsap.to([spiderman], {
             duration: 2.5,
             easy: 'bounce.out',
-            // rotatio: -130,
             y: -180,
             x: 500,
             yoyo: true,

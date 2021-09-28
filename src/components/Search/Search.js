@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Search.css';
 
 
@@ -17,11 +17,6 @@ const Search = ({ searchCharacter }) => {
         } else {
             console.log(e)
         }
-        // need to go clear the search if nothing is pressed back 
-        // need to reset the state to empty after clickin the details card
-        //  else if (e.target.value === '') {
-        //     searchCharacter('Spider')
-        // }
     }
 
     return (
