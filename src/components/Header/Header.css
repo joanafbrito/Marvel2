@@ -1,0 +1,32 @@
+.header {
+    color:#e62429;
+    font-size: 20px;
+    background-color: #151515;
+    padding-bottom: 5px;
+    font-family: Roboto,Trebuchet MS,Helvetica,Arial,sans-serif;
+    text-align: center;
+}
+
+.logo-img-container {
+    background-color:#202020!important;
+    padding:10px;
+}
+
+.marvel-logo {
+    width: 10%;
+    align-items: center;
+    height: fit-content;
+}
+
+.home-page-link {
+    font-size: 12px;
+    color: #ffffff;
+    text-decoration: none;
+    padding-bottom: 5px;
+    
+}
+
+.home-page-link:hover {
+    font-size: 13px;
+    border-bottom: 2px solid #fbf8f8;
+}

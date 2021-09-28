@@ -1,0 +1,36 @@
+.character-detail {
+    background-color:  white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    padding-left:0;
+}
+
+.character-info {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.searched-character-img {
+    width: 40%;
+    border-radius: 0 60px;
+    margin-left: 10%;
+    border:2px solid #ff0000ab;
+}
+
+.text-info {
+    padding: 15%;  
+}
+
+.character-name {
+    color: #ff0000ab;
+}
+
+.comic-img {
+    width:20%;
+    margin: 10%;
+    border-radius: 0 40px;
+    border:2px solid #ff0000ab;
+
+}
