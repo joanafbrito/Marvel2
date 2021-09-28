@@ -1,0 +1,14 @@
+.footer {
+    color: white;
+    font-size: 14px;
+    background-color: #151515;
+    padding-bottom: 5px;
+    font-family: Roboto,Trebuchet MS,Helvetica,Arial,sans-serif;
+    text-align: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.app-name-footer {
+    margin:0;
+}
