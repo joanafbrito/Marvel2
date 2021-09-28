@@ -15,7 +15,7 @@ This project is a solo project for Turing School of Software & Design during mod
 
 [The project rubric is linked here.](https://frontend.turing.edu/projects/module-3/showcase.html)
 
-[Deployment Link]()
+[Deployment Link](https://marvel2.surge.sh/)
 
 ## A Little Bit About the Developer
 
