@@ -47,34 +47,37 @@ This project is a solo project for Turing School of Software & Design during mod
 - Miro Wireframe [(link)](https://miro.com/app/board/o9J_lvS23FY=/)
 - [MARVEL API](https://developer.marvel.com/documentation/generalinfo)
 
-## Screenshots
+<!-- ## Screenshots
 
 ### Mobile
 
 <p>
   <img src="" alt="mobile home page screenshot" width="200"/>
   <img src="" alt="mobile details screenshot" width="200"/>
-</p>
+</p> -->
 
-### Desktop
+<!-- ### Desktop
 
 <p>
   <img src="" alt="desktop home page screenshot" width="200"/>
   <img src="" alt="desktop home page screenshot" width="200"/>
-</p>
-
+</p> -->
+<!-- 
 ### Error & Loader
 
 <p>
   <img src="" alt="error screenshot" width="200"/>
   <img src="" alt="loader screenshot" width="200"/>
-</p>
+</p> -->
 
 ## Reflections
 
 ### Wins
 
-- Design, plan and Build the app in 5 days while having Classes.
+- Design, plan and Build the app in 4 days.
+- Be able to access this api with a key and using axios
+- Use hooks in my project
+- React Router
 
 <img src="https://cdn.goliath.com/eyJidWNrZXQiOiJwdWItc3RvcmFnZSIsImtleSI6ImdvbGlhdGgvd3AtY29udGVudC91cGxvYWRzLzIwMTYvMDUvTWFydmVsLVRoZS1BdmVuZ2Vycy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE2MDAsImhlaWdodCI6OTAyLCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MCwiZyI6MCwiYiI6MCwiYWxwaGEiOjF9LCJwb3NpdGlvbiI6InRvcCJ9fX0=" alt="Avengers" width="300" align="right"/>
 
@@ -82,12 +85,13 @@ This project is a solo project for Turing School of Software & Design during mod
 
 
 - Balancing fun/life with project/work/study time 👩🏻‍💻 💅🏻 💆🏻‍ 🐈 🎸
-- Managing the media queries for responsive design
-- Very short time to build the app
-- Time managment
+- Very, very short time to build the app + healthy challenges
+- Use the api with limit access 
+- I had the last 24 hour of the project without any access to the api and any URL or URI linked to the characters....
+- Gave me the understanding of why having a complete sample data file is so important (I had only a small one/ not complete)
 
 ## Future Designs/Extensions
 
+- The user will be able to click in the series and have a detailed page with the series info and if it a tv series a embeded youtube trailer video.
 - The user will be able to login/logout with username and password.
 - The user will be able to save their favorite characters within their account.
-- The user will be able to play a game in the app.
