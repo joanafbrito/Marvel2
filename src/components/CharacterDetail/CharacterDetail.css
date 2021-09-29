@@ -8,13 +8,12 @@
 
 .character-info {
     display: flex;
-    flex-direction: row-reverse;
 }
 
 .searched-character-img {
     width: 40%;
     border-radius: 0 60px;
-    margin-left: 10%;
+    margin-right: 10%;
     border:2px solid #ff0000ab;
 }
 
@@ -24,6 +23,13 @@
 
 .character-name {
     color: #ff0000ab;
+}
+
+.series {
+    color: #ffffff;
+    padding-left: 5%;
+    background-color: #202020;
+    text-align: center;
 }
 
 .series-img {

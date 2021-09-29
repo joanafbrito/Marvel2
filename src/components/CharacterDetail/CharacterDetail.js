@@ -50,13 +50,13 @@ const CharacterDetail = () => {
             <h2 className='series'> {searchedCharacter.series.available } Series Available </h2>
             {/* <p>{searchedCharacter.series.items[0].name}</p> */}
             <Series series={ searchedCharacter.series.items}/>
-            <img
+            {/* <img
               className="series-img"
-            //   src="https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg"
-              src="'http://gateway.marvel.com/v1/public/series/22008'"
+              src="https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_.jpg"
+            //   src="'http://gateway.marvel.com/v1/public/series/22008'"
               // alt={searchedCharacter.series.items[5].name}
               alt="Avanges endgame series"
-            />
+            /> */}
           </section>
         </div>
       )}
