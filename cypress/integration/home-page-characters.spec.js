@@ -32,14 +32,15 @@ describe('Home page', () => {
           .type('Thor')
           .should('have.value','Thor')
           .type('{enter}')
-          .get('img[src="http://i.annihil.us/u/prod/marvel/i/mg/d/d0/5269657a74350.jpg"]')
+          .get('img[src="http://i.annihil.us/u/prod/marvel/i/mg/d/d0/5269657a74350.jpg"]', {timeout:6000})
           .should('be.visible')
-          .get('h3') 
-          .contains('Thor')
     });
 
     it('Should change to the Character page, when click on the card', () => {
-        cy.get('.card-container')
+        cy.get('.search-bar')
+          .type('Avengers')
+          .type('{enter}')
+          cy.get('img[src="http://i.annihil.us/u/prod/marvel/i/mg/9/20/5102c774ebae7.jpg"]',{timeout:6000})
           .click()
           .get('.all-character')
           .should('not.exist')
@@ -48,7 +49,10 @@ describe('Home page', () => {
     });
 
     it('Should be able to navigate back to the Home Page using the Browser arrows', () => {
-        cy.get('.character-card')          
+        cy.get('.search-bar')
+          .type('Avengers')
+          .type('{enter}')
+        cy.get('img[src="http://i.annihil.us/u/prod/marvel/i/mg/9/20/5102c774ebae7.jpg"]',{timeout:6000})
           .click()
           .go('back')
           .get('.all-character')
