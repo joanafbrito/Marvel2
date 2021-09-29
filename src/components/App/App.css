@@ -2,12 +2,6 @@
   font-family: Roboto,Trebuchet MS,Helvetica,Arial,sans-serif;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
-  .p {
-    animation: p-spin infinite 20s linear;
-  }
-} */
-
 .App-header {
   color: white;
 }
@@ -15,12 +9,3 @@
 .App-link {
   color: #61dafb;
 }
-/* 
-@keyframes p-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(180deg);
-  }
-} */
