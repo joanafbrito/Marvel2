@@ -15,7 +15,7 @@ This project is a solo project for Turing School of Software & Design during mod
 
 [The project rubric is linked here.](https://frontend.turing.edu/projects/module-3/showcase.html)
 
-[Deployment Link](https://marvel2.surge.sh/)
+[Marvel2U - Deployment Link](https://marvel2u.surge.sh/)
 
 ## A Little Bit About the Developer
 
@@ -36,13 +36,15 @@ This project is a solo project for Turing School of Software & Design during mod
 ## Technologies Used
 
 - React/JavaScript
-- React Router
+- React Router/ React Hooks
 - Green Sock Animation Library (GSAP)
 - JSX
 - CSS
 - Lighthouse (Accessibility dev-tool)
 - Cypress
 - NPM
+- Axio ApI
+- gsap
 - Fetch API
 - Miro Wireframe [(link)](https://miro.com/app/board/o9J_lvS23FY=/)
 - [MARVEL API](https://developer.marvel.com/documentation/generalinfo)
@@ -78,6 +80,7 @@ This project is a solo project for Turing School of Software & Design during mod
 - Be able to access this api with a key and using axios
 - Use hooks in my project
 - React Router
+- Being able to finish the project and deploy, even using this api with so many restrictions!!!
 
 <img src="https://cdn.goliath.com/eyJidWNrZXQiOiJwdWItc3RvcmFnZSIsImtleSI6ImdvbGlhdGgvd3AtY29udGVudC91cGxvYWRzLzIwMTYvMDUvTWFydmVsLVRoZS1BdmVuZ2Vycy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE2MDAsImhlaWdodCI6OTAyLCJmaXQiOiJjb3ZlciIsImJhY2tncm91bmQiOnsiciI6MCwiZyI6MCwiYiI6MCwiYWxwaGEiOjF9LCJwb3NpdGlvbiI6InRvcCJ9fX0=" alt="Avengers" width="300" align="right"/>
 
@@ -88,7 +91,7 @@ This project is a solo project for Turing School of Software & Design during mod
 - Very, very short time to build the app + healthy challenges
 - Use the api with limit access 
 - I had the last 24 hour of the project without any access to the api and any URL or URI linked to the characters....
-- Gave me the understanding of why having a complete sample data file is so important (I had only a small one/ not complete)
+- Gave me the understanding of why having a complete sample data file is so important (I had only a small one/ not complete to work with)
 
 ## Future Designs/Extensions
 
