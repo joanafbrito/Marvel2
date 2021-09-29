@@ -4,5 +4,12 @@
     padding: 20px;
     margin: 10px 5% 10% 10%;
     overflow-x: hidden;
-    /* height: 65vh; */
+}
+
+/* ****** IphoneX ******* */
+@media only screen and (max-width:600px ){
+    .all-character {   
+      justify-content: center;
+    }
+    
 }
