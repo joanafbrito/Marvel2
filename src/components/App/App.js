@@ -8,9 +8,8 @@ import Loader from '../Loader/Loader';
 import Footer from '../Footer/Footer';
 import axios from "axios";
 import "./App.css";
-import { sampleData } from "../../utils/sampledata";
-// import { getData } from '../../utils/apiCalls'
 // import { sampleData } from "../../utils/sampledata";
+// import { getData } from '../../utils/apiCalls'
 
 const App = () => {
   const [characters, setCharacters] = useState([]);
@@ -32,7 +31,6 @@ const App = () => {
     return axios.get(url).then((res) => {
       setCharacters(res.data.data.results);
     });
-    // setCharacters(sampleData.data.results)
   };
 
   const searchCharacter = (query) => {
@@ -49,14 +47,11 @@ const App = () => {
           <Header />
           <Switch>
             <Route exact path="/">
-            {/* {characters.length > 0 && ( */}
               <Search searchCharacter={searchCharacter} />
               {!characters.length && <Loader/>} 
-            {/* {error && <Error/>}  */}
               <AllCharacter
                 characterData={characters}
               />
-              {/* )} */}
             </Route>
             <Route path="/character/:id">
               <CharacterDetail />
