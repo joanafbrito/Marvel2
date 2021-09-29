@@ -22,17 +22,17 @@ const App = () => {
   }, [query]);
 
   const getData = async () => {
-    // let pbk = "9b29a8325371bc7becbf4068fd0948eb";
-    // let url = `https://gateway.marvel.com:443/v1/public/characters?limit=100&series=354&apikey=${pbk}`;
+    let pbk = "9b29a8325371bc7becbf4068fd0948eb";
+    let url = `https://gateway.marvel.com:443/v1/public/characters?limit=100&series=354&apikey=${pbk}`;
 
-    // if (query.length >= 3) {
-    //   url = `https://gateway.marvel.com:443/v1/public/characters?apikey=${pbk}&nameStartsWith=${query}`;
-    // }
+    if (query.length >= 3) {
+      url = `https://gateway.marvel.com:443/v1/public/characters?apikey=${pbk}&nameStartsWith=${query}`;
+    }
 
-    // return axios.get(url).then((res) => {
-    //   setCharacters(res.data.data.results);
-    // });
-    setCharacters(sampleData.data.results)
+    return axios.get(url).then((res) => {
+      setCharacters(res.data.data.results);
+    });
+    // setCharacters(sampleData.data.results)
   };
 
   const searchCharacter = (query) => {
