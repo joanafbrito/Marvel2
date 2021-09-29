@@ -1,4 +1,5 @@
 import React from 'react';
+import './Series.css';
 
 const Series = (props) => {
     const series = props.series.map((serie) => {
