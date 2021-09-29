@@ -17,6 +17,8 @@ This project is a solo project for Turing School of Software & Design during mod
 
 [Marvel2U - Deployment Link](https://marvel2u.surge.sh/)
 
+**It has a limit of 3k calls a day( if for some reason stops working please try again in the next 24hours, i'm sure it will work/ I'm still learning so ... have fun!)
+
 ## A Little Bit About the Developer
 
 <img src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/f04903ff58bd2ab033219515696a42d249fb2503ff24173b0ccce86574d0c50a._SX1080_.jpg" alt="Black Widow" width="300" align="right"/>
