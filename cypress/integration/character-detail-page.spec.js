@@ -5,7 +5,10 @@ describe('The Character details page', () => {
     });
 
     it('Should contain the information of the Selected Character', () => {
-        cy.get('.card-container',{timeout:6000})
+        cy.get('.search-bar')
+          .type('Thor')
+          .type('{enter}')
+        cy.get('img[src="http://i.annihil.us/u/prod/marvel/i/mg/d/d0/5269657a74350.jpg"]',{timeout:6000})
           .click()
           .get('.character-detail')
           .should('be.visible')
@@ -36,9 +39,10 @@ describe('The Character details page', () => {
     it('Should be able to navigate forward to the Character Page using the Browser arrows', () => {
         cy.get('.home-page-link')
           .click()
-          .get('.character-detail')
-          .should('not.exist')
-          .get('.card-container')
+          .get('.search-bar')
+          .type('Avengers')
+          .type('{enter}')
+        cy.get('img[src="http://i.annihil.us/u/prod/marvel/i/mg/9/20/5102c774ebae7.jpg"]',{timeout:6000})
           .click()
           .get('.character-detail')
           .should('be.visible')
