@@ -2,7 +2,6 @@ import React from 'react';
 import './Header.css';
 
 const Header = () => {
-
     return(
         <header className='header'>
             <div className='logo-img-container'>
@@ -11,7 +10,6 @@ const Header = () => {
             <a className='home-page-link'href='/'>Characters</a>
         </header>
     )
-
 }
 
 export default Header;

@@ -1,0 +1,12 @@
+.series-list {
+    text-align: center;
+    font-size: 120%;
+}
+
+/* ****** IphoneX ******* */
+@media only screen and (max-width:600px ){
+    .series-list {   
+      font-size: 100%;
+    }
+    
+}

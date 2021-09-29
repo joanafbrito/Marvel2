@@ -7,7 +7,6 @@ const Footer = () => {
             <p className='app-name-footer'>@MARVEL</p>
         </footer>
     )
-
 }
 
 export default Footer;
