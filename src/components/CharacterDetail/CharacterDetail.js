@@ -4,25 +4,21 @@ import Loader from "../Loader/Loader";
 import Series from '../Series/Series';
 import axios from "axios";
 import "./CharacterDetail.css";
-// import { sampleData } from "../../utils/sampledata";
 
 const CharacterDetail = () => {
   // use params uses the information from the url used by the router
   const { id } = useParams();
   const [searchedCharacter, setSearchedCharacter] = useState(null);
 
-  console.log("top of the function ", id);
-
   useEffect(() => {
     getDataDetails();
   }, []);
-  console.log("useeffest", searchedCharacter);
 
   const getDataDetails = async () => {
     // let pbk = "9b29a8325371bc7becbf4068fd0948eb";// my key
     let pbk = "fc4a6dba9ded4fe4a04e441646538fd2"; // second key
     let url = `https://gateway.marvel.com:443/v1/public/characters/${id}?apikey=${pbk}`;
-    console.log(url);
+  
     return axios.get(url).then((res) => {
       setSearchedCharacter(res.data.data.results[0]);
     });

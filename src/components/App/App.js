@@ -8,7 +8,6 @@ import Loader from '../Loader/Loader';
 import Footer from '../Footer/Footer';
 import axios from "axios";
 import "./App.css";
-// import { sampleData } from "../../utils/sampledata";
 // import { getData } from '../../utils/apiCalls'
 
 const App = () => {

@@ -7,9 +7,8 @@ const Search = ({ searchCharacter }) => {
         e.preventDefault()
         searchCharacter(e.target.value)
     }
-
+    
     const handleKeyPress = (e) => {
-        console.log(e)
         if(e.key === 'Enter') {
             e.preventDefault();
             searchCharacter(e.target.value)

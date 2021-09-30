@@ -1,6 +1,6 @@
 import React, { useEffect, useRef }from 'react';
 import { gsap } from 'gsap';
-import { Redirect } from 'react-router-dom';
+// import { Redirect } from 'react-router-dom';
 import './Loader.css'
 
 const Loader = () => {
