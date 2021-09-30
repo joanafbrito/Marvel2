@@ -14,9 +14,9 @@ const App = () => {
   const [query, setQuery] = useState("");
 
 
-  useEffect(() => {
-    setTimeout(() => {getData()}, 5000) // this setTimeout is for animation
-  }, [query]);
+  // useEffect(() => {
+  //   setTimeout(() => {getData()}, 5000) // this setTimeout is for animation
+  // }, [query]);
 
   const getData = async () => {
     let pbk = "9b29a8325371bc7becbf4068fd0948eb";
@@ -30,6 +30,10 @@ const App = () => {
       setCharacters(res.data.data.results);
     });
   };
+
+  useEffect(() => {
+    setTimeout(() => {getData()}, 5000) // this setTimeout is for animation
+  }, [query]);
 
   const searchCharacter = (query) => {
     const lowerCaseIput = query.toLowerCase();
