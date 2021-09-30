@@ -8,12 +8,11 @@ import Loader from '../Loader/Loader';
 import Footer from '../Footer/Footer';
 import axios from "axios";
 import "./App.css";
-// import { getData } from '../../utils/apiCalls'
 
 const App = () => {
   const [characters, setCharacters] = useState([]);
   const [query, setQuery] = useState("");
-  const [error, setError] = useState("");
+  // const [error, setError] = useState("");
 
   useEffect(() => {
     setTimeout(() => {getData()}, 5000) // this setTimeout is for animation
