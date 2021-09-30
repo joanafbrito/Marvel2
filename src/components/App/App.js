@@ -12,7 +12,7 @@ import "./App.css";
 const App = () => {
   const [characters, setCharacters] = useState([]);
   const [query, setQuery] = useState("");
-  // const [error, setError] = useState("");
+
 
   useEffect(() => {
     setTimeout(() => {getData()}, 5000) // this setTimeout is for animation
