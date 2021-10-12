@@ -11,12 +11,7 @@ import "./App.css";
 
 const App = () => {
   const [characters, setCharacters] = useState([]);
-  const [query, setQuery] = useState("");
-
-
-  // useEffect(() => {
-  //   setTimeout(() => {getData()}, 5000) // this setTimeout is for animation
-  // }, [query]);
+  const [query, setQuery] = useState('');
 
   const getData = async () => {
     let pbk = "9b29a8325371bc7becbf4068fd0948eb";
@@ -42,6 +37,10 @@ const App = () => {
     }
   };
 
+  const clearQuery = () => {
+    setQuery('')
+  }
+
   return (
     <Router>
       <div className="App">
@@ -49,7 +48,7 @@ const App = () => {
           <Header />
           <Switch>
             <Route exact path="/">
-              <Search searchCharacter={searchCharacter} />
+              <Search searchCharacter={searchCharacter} clearQuery={clearQuery}/>
               {!characters.length && <Loader/>} 
               <AllCharacter
                 characterData={characters}
