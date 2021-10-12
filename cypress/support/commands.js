@@ -1,5 +1,3 @@
-
-// https://on.cypress.io/custom-commands
 Cypress.Commands.add('pageLoad', () => {
     let pbk = '9b29a8325371bc7becbf4068fd0948eb';
     let baseURL = `https://gateway.marvel.com:443/v1/public/characters?apikey=${pbk}`
@@ -401,10 +399,7 @@ Cypress.Commands.add('pageLoad', () => {
         }
       ]
     });
-    
-    // cy.intercept(`${ baseURL }/726739`, {
-    //   
-    // });
+  
     let id = 1009664
     let detailURL =`https://gateway.marvel.com:443/v1/public/characters/${id}?apikey=${pbk}`;
 
@@ -806,7 +801,6 @@ Cypress.Commands.add('pageLoad', () => {
             }
           ]
         });
-
 
     cy.visit('http://localhost:3000');
 })

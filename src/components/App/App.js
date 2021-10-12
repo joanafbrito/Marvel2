@@ -8,17 +8,10 @@ import Loader from '../Loader/Loader';
 import Footer from '../Footer/Footer';
 import axios from "axios";
 import "./App.css";
-// import { sampleData } from "../../utils/sampledata";
-// import { getData } from '../../utils/apiCalls'
 
 const App = () => {
   const [characters, setCharacters] = useState([]);
-  const [query, setQuery] = useState("");
-  const [error, setError] = useState("");
-
-  useEffect(() => {
-    setTimeout(() => {getData()}, 5000) // this setTimeout is for animation
-  }, [query]);
+  const [query, setQuery] = useState('');
 
   const getData = async () => {
     let pbk = "9b29a8325371bc7becbf4068fd0948eb";
@@ -33,12 +26,20 @@ const App = () => {
     });
   };
 
+  useEffect(() => {
+    setTimeout(() => {getData()}, 5000) // this setTimeout is for animation
+  }, [query]);
+
   const searchCharacter = (query) => {
     const lowerCaseIput = query.toLowerCase();
     if (query.length >= 3) {
       return setQuery(lowerCaseIput);
     }
   };
+
+  const clearQuery = () => {
+    setQuery('')
+  }
 
   return (
     <Router>
@@ -47,7 +48,7 @@ const App = () => {
           <Header />
           <Switch>
             <Route exact path="/">
-              <Search searchCharacter={searchCharacter} />
+              <Search searchCharacter={searchCharacter} clearQuery={clearQuery}/>
               {!characters.length && <Loader/>} 
               <AllCharacter
                 characterData={characters}

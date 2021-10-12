@@ -1,20 +1,25 @@
+import { getSuggestedQuery } from '@testing-library/react';
 import React from 'react';
 import './Search.css';
 
-const Search = ({ searchCharacter }) => {
+const Search = ({ searchCharacter, clearQuery }) => {
 
+    const handleClick = (e) => {
+        e.preventDefault()
+        clearQuery('')
+    }
+    
     const handleChange = (e) => {
         e.preventDefault()
         searchCharacter(e.target.value)
     }
 
     const handleKeyPress = (e) => {
-        console.log(e)
         if(e.key === 'Enter') {
             e.preventDefault();
             searchCharacter(e.target.value)
         } else {
-            console.log(e)
+           console.log('here')
         }
     }
 
@@ -26,7 +31,12 @@ const Search = ({ searchCharacter }) => {
                 </section>
             </div>
             <div className='search-bar-container'>
-                <img className='icon-search' src='/search_icon.svg' alt='Search icon'/>
+                <img 
+                className='icon-search' 
+                src='/search_icon.svg' 
+                alt='Search icon'
+                onClick={(e) => handleClick(e)}     
+                />
                 <input
                 className='search-bar'
                 type='search'

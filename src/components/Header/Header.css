@@ -5,6 +5,7 @@
     padding-bottom: 5px;
     font-family: Roboto,Trebuchet MS,Helvetica,Arial,sans-serif;
     text-align: center;
+    height: fit-content;
 }
 
 .logo-img-container {
@@ -13,9 +14,8 @@
 }
 
 .marvel-logo {
-    width: 10%;
+    width: 100px;
     align-items: center;
-    height: fit-content;
 }
 
 .home-page-link {

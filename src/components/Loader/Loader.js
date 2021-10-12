@@ -1,10 +1,8 @@
 import React, { useEffect, useRef }from 'react';
 import { gsap } from 'gsap';
-import { Redirect } from 'react-router-dom';
 import './Loader.css'
 
 const Loader = () => {
-    let loadingMessage = useRef(null)
     let spiderman = useRef(null)
 
     useEffect(() => {
@@ -31,7 +29,7 @@ const Loader = () => {
     return (
         <section className='loader-container'>
             <img className='spiderman-loader' src='/spiderman.png' ref={(el) => spiderman = el } alt='spiderman in loading'/>
-            <h2 className='loading-msg' ref={(el) => loadingMessage = el }>Hi,... helo.... ops...looks like it is loading...</h2>
+            <h2 className='loading-msg'>Hi,... helo.... ops...looks like it is loading...</h2>
         </section>
     )
     
