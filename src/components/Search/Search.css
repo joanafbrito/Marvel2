@@ -17,11 +17,12 @@
 }
 
 .icon-search {
-    width: 8%;
+    width: 80px;
     fill: none;
     stroke-width: 2px;
     stroke-linecap: square;
     border-bottom: 2px solid #151515;
+    cursor: pointer;
 }
 
 .search-bar {
@@ -38,6 +39,6 @@
 .gray-line {
     background-color: #f2f2f2;
     height: 2px;
-    margin-left: 12%;
-    margin-right: 18%;
+    margin-left: 12vw;
+    margin-right: 10vw;
 }
