@@ -10,9 +10,6 @@ const CharacterDetail = () => {
   const { id } = useParams();
   const [searchedCharacter, setSearchedCharacter] = useState(null);
 
-  useEffect(() => {
-    getDataDetails();
-  }, []);
 
   const getDataDetails = async () => {
     // let pbk = "9b29a8325371bc7becbf4068fd0948eb";// my key
@@ -23,6 +20,10 @@ const CharacterDetail = () => {
       setSearchedCharacter(res.data.data.results[0]);
     });
   };
+
+  useEffect(() => {
+    getDataDetails();
+  }, []);
 
   return (
     <section className="character-detail">
