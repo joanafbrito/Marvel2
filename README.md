@@ -51,28 +51,30 @@ This project is a solo project for Turing School of Software & Design during mod
 - Miro Wireframe [(link)](https://miro.com/app/board/o9J_lvS23FY=/)
 - [MARVEL API](https://developer.marvel.com/documentation/generalinfo)
 
-<!-- ## Screenshots
+ ## Screenshots
 
 ### Mobile
 
-<p>
-  <img src="" alt="mobile home page screenshot" width="200"/>
-  <img src="" alt="mobile details screenshot" width="200"/>
-</p> -->
+  <img src="https://user-images.githubusercontent.com/82066350/137402711-fbe607c1-4047-4978-a064-76b54c595c8e.png" alt="mobile home page screenshot" width="200" align="center"/>
+  <img src="https://user-images.githubusercontent.com/82066350/137402857-37a369bf-6739-4de1-9e0a-99cafe572150.png" alt="mobile details screenshot" width="200"/>
+</p>
 
-<!-- ### Desktop
-
-<p>
-  <img src="" alt="desktop home page screenshot" width="200"/>
-  <img src="" alt="desktop home page screenshot" width="200"/>
-</p> -->
-<!-- 
-### Error & Loader
+ ### Desktop
 
 <p>
-  <img src="" alt="error screenshot" width="200"/>
-  <img src="" alt="loader screenshot" width="200"/>
-</p> -->
+  <img src="https://user-images.githubusercontent.com/82066350/137402833-fa054c98-d27c-4b00-a66b-4aacf3291839.png" alt="desktop home page screenshot" width="400" />
+  <img src="https://user-images.githubusercontent.com/82066350/137402825-7fee031d-745c-4aba-be84-ddcd952cf537.png" alt="desktop home page hoover over card screenshot" width="400"/>
+  <img src="https://user-images.githubusercontent.com/82066350/137402845-f4acd15b-76ce-4ff9-80b1-98c9b282c71f.png" alt="desktop home page hoover over card screenshot" width="400"/>
+</p> 
+
+### iPadPro
+
+<p>
+  <img src="https://user-images.githubusercontent.com/82066350/137402817-e312446e-c55d-4beb-873b-daf3f7e00eba.png" alt="loader animation screenshot" width="400"/>
+  <img src="https://user-images.githubusercontent.com/82066350/137402799-1dfeee2c-e81f-43bc-a1ec-22117d188a3f.png" alt="home page screenshot" width="400"/>
+  <img src="https://user-images.githubusercontent.com/82066350/137404163-5282ee5e-a080-4821-9031-622730cd0130.png" alt=" screenshot" width="400"/>
+
+</p> 
 
 ## Reflections
 
@@ -100,3 +102,5 @@ This project is a solo project for Turing School of Software & Design during mod
 - The user will be able to click in the series and have a detailed page with the series info and if it a tv series a embeded youtube trailer video.
 - The user will be able to login/logout with username and password.
 - The user will be able to save their favorite characters within their account.
+
+
