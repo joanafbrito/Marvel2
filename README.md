@@ -81,8 +81,8 @@ This project is a solo project for Turing School of Software & Design during mod
 ### Wins
 
 - Design, plan and Build the app in 4 days.
-- Be able to access this api with a key and using axios
-- Use hooks in my project
+- Access the api with a key and using axios
+- Use of hooks in my project
 - React Router
 - Being able to finish the project and deploy, even using this api with so many restrictions!!!
 
@@ -95,7 +95,7 @@ This project is a solo project for Turing School of Software & Design during mod
 - Very, very short time to build the app + healthy challenges
 - Use the api with limit access 
 - I had the last 24 hour of the project without any access to the api and any URL or URI linked to the characters....
-- Gave me the understanding of why having a complete sample data file is so important (I had only a small one/ not complete to work with)
+- Gave me the understanding of why having a complete sample data file is so important (I had only a small one/ not complete to finish my work with)
 
 ## Future Designs/Extensions
 
